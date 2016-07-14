@@ -29,6 +29,11 @@
 						<target>1.5</target>
 					</configuration>
 				</plugin>
+				<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.0.1</version>
+				</plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
@@ -49,7 +54,7 @@
 			<url>http://192.168.0.20:8082/nexus/content/repositories/central/</url>
 		</repository>
 	</repositories>
-	
+
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
@@ -60,5 +65,5 @@
 			<url>http://192.168.0.20:8082/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
-	
+
 </project>
