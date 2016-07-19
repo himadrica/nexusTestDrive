@@ -46,18 +46,18 @@
 		<repository>
 			<id>my-repo1</id>
 			<name>nexus-central</name>
-			<url>http://192.168.0.20:8082/nexus/content/repositories/central/</url>
+			<url>http://192.168.0.19:8082/nexus/content/repositories/central/</url>
 		</repository>
 	</repositories>
 
 	<distributionManagement>
 		<snapshotRepository>
 			<id>nexus</id>
-			<url>http://192.168.0.20:8082/nexus/content/repositories/snapshots/</url>
+			<url>http://192.168.0.19:8082/nexus/content/repositories/snapshots/</url>
 		</snapshotRepository>
 		<repository>
 			<id>nexus</id>
-			<url>http://192.168.0.20:8082/nexus/content/repositories/releases/</url>
+			<url>http://192.168.0.19:8082/nexus/content/repositories/releases/</url>
 		</repository>
 	</distributionManagement>
 
